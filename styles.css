@@ -1,0 +1,110 @@
+/* variables to control colours based on users system colour preference */
+:root {
+  --body-bg-color: #ededed;
+  --card-bg-color: #242424;
+  --font-color: #fff;
+  --border-color: #fff;
+}
+
+/* change the colours if the users system is set to dark */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #242424;
+    --card-bg-color: #ededed;
+    --font-color: #242424;
+    --border-color: #000;
+  }
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--body-bg-color);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 32px;
+  border: 4px solid var(--border-color);
+  background-color: var(--card-bg-color);
+  box-shadow: 8px 8px 0 0 var(--border-color);
+  color: var(--font-color);
+  text-align: center;
+}
+
+.card header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.card header h1 {
+  margin: 12px 0 8px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.socials {
+  display: flex;
+  column-gap: 16px;
+  margin: 16px 0 32px;
+}
+
+.socials a {
+  color: var(--font-color);
+  font-size: 24px;
+  transition: color 300ms ease-in-out;
+}
+
+.socials a.youtube:hover {
+  color: #ff0000;
+}
+
+.socials a.tiktok:hover {
+  color: #ff0050;
+}
+
+.socials a.twitter:hover {
+  color: #1da1f2;
+}
+
+.socials a.instagram:hover {
+  color: #c13584;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  width: 100%;
+}
+
+.links li {
+  border: 2px solid var(--border-color);
+  box-shadow: 4px 4px 0 0 var(--border-color);
+  transition: filter 300ms ease-in-out;
+}
+
+.links li:hover {
+  filter: saturate(5);
+}
+
+.links li a {
+  display: block;
+  padding: 16px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+  text-decoration: none;
+}
