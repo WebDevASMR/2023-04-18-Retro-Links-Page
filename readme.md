@@ -3,8 +3,8 @@
 Develop a retro-styled linktree page in this ASMR Programming tutorial.
 Follow along as we create a unique and eye-catching one-page website for organizing all your important links in a vintage-inspired design.
 
-[Watch the video here:](https://youtu.be/gdjbLRKnc1A?sub_confirmation=1)
-[![YouTube](./thumbnail.jpg)](https://youtu.be/gdjbLRKnc1A?sub_confirmation=1)
+[Watch the video here:](https://www.youtube.com/watch?v=_zCcJdwT3LE?sub_confirmation=1)
+[![YouTube](./thumbnail.jpg)](https://www.youtube.com/watch?v=_zCcJdwT3LE?sub_confirmation=1)
 
 ## Resources
 
